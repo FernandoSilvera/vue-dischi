@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container">
-      <div class="row row-cols-5">
+      <div class="row row-cols-5 gy-3">
         <div class="col" v-for="(album, i) in albumsList" :key="i">
           <AlbumData :album="album"></AlbumData>
         </div>
